@@ -7,30 +7,30 @@ Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort
 
 
 ### [Bubble Sort](bubblesort.cpp)
-*Time Complexity*: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
+***Time Complexity***: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
 
-*Space Complexity*: O(1)
+***Space Complexity***: O(1)
 
 ### [Insertion Sort](insertionsort.cpp)
-*Time Complexity*: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
+***Time Complexity***: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
 
-*Space Complexity*: O(1)
+***Space Complexity***: O(1)
 
 ### [Selection Sort](selectionsort.cpp)
-*Time Complexity*: O(N2) for the worst, average, best case. Here, N = size of the array.
+***Time Complexity***: O(N2) for the worst, average, best case. Here, N = size of the array.
 
-*Space Complexity*: O(1)
+***Space Complexity***: O(1)
 
 ### [Merge Sort](mergesort.cpp)
-*Time complexity*: O(nlogn) 
+***Time Complexity***: O(nlogn) 
 
 Reason: At each step, we divide the whole array, for that logn and we assume n steps are taken to get sorted array, so overall time complexity will be nlogn
 
-*Space complexity*: O(n)  
+***Space Complexity***: O(n)  
 
 Reason: We are using a temporary array to store elements in sorted order.
 ### [Quick Sort](quicksort.cpp)
-*Time Complexity*: O(N*logN), where N = size of the array.
+***Time Complexity***: O(N*logN), where N = size of the array.
 
 Reason: At each step, we divide the whole array, for that logN and n steps are taken for the partition() function, so overall time complexity will be N*logN.
 
@@ -55,6 +55,6 @@ F(n) = 2F(n/2)
 
 Time Complexity for the best and average case: O(N*logN)
 
-*Space Complexity*: O(1) + O(N) auxiliary stack space.
+***Space Complexity***: O(1) + O(N) auxiliary stack space.
 
 
