@@ -38,9 +38,7 @@ int main(){
 		cout<<it<<" ";
 	}
 	cout<<endl;
-
-
-
+	
 	int ans=binarySearch(arr,target,n);
 
 	cout<<"The position of"<<" "<<target<<" "<<"is"<<" "<<ans<<endl;

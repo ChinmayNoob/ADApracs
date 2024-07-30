@@ -12,6 +12,7 @@ int linerSearch(vector<int> &arr,int target,int n){
 	return -1;
 }
 
+
 int main(){
 	int n,target;
 	cin>>n>>target;

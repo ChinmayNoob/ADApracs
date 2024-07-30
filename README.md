@@ -2,8 +2,8 @@
 ### This Repository covers all the practicals from Analysis and Design of Algorithm 
 
 ## Practical 1
-Implementation and Time analysis of sorting algorithms.
-Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort
+*Implementation and Time analysis of sorting algorithms.*
+*Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort*
 
 
 ### [Bubble Sort](bubblesort.cpp)
@@ -56,5 +56,11 @@ F(n) = 2F(n/2)
 Time Complexity for the best and average case: O(N*logN)
 
 ***Space Complexity***: O(1) + O(N) auxiliary stack space.
+
+## Practical 2
+*Implementation and Time analysis of linear search and binary search algorithms.*
+
+
+
 
 
