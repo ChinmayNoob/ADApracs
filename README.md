@@ -11,6 +11,9 @@ Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort
 
 *Space Complexity*: O(1)
 
+### [Insertion Sort](insertionsort.cpp)
+
+
 - [Bubble Sort](bubblesort.cpp)
 - [Insertion Sort](insertionsort.cpp)
 - [Merge Sort](mergesort.cpp)
