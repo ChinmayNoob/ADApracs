@@ -2,26 +2,30 @@
 ### This Repository covers all the practicals from Analysis and Design of Algorithm 
 
 ## Practical 1
+
 *Implementation and Time analysis of sorting algorithms.*
 *Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort*
 
-
 ### [Bubble Sort](bubblesort.cpp)
+
 ***Time Complexity***: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
 
 ***Space Complexity***: O(1)
 
 ### [Insertion Sort](insertionsort.cpp)
+
 ***Time Complexity***: O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
 
 ***Space Complexity***: O(1)
 
 ### [Selection Sort](selectionsort.cpp)
+
 ***Time Complexity***: O(N2) for the worst, average, best case. Here, N = size of the array.
 
 ***Space Complexity***: O(1)
 
 ### [Merge Sort](mergesort.cpp)
+
 ***Time Complexity***: O(nlogn) 
 
 Reason: At each step, we divide the whole array, for that logn and we assume n steps are taken to get sorted array, so overall time complexity will be nlogn
@@ -29,7 +33,9 @@ Reason: At each step, we divide the whole array, for that logn and we assume n s
 ***Space Complexity***: O(n)  
 
 Reason: We are using a temporary array to store elements in sorted order.
+
 ### [Quick Sort](quicksort.cpp)
+
 ***Time Complexity***: O(N*logN), where N = size of the array.
 
 Reason: At each step, we divide the whole array, for that logN and n steps are taken for the partition() function, so overall time complexity will be N*logN.
@@ -58,7 +64,49 @@ Time Complexity for the best and average case: O(N*logN)
 ***Space Complexity***: O(1) + O(N) auxiliary stack space.
 
 ## Practical 2
+
 *Implementation and Time analysis of linear search and binary search algorithms.*
+
+### [Linear Search](linearsearch.cpp)
+
+***Time Complexity***
+
+Best Time Complexity     : O(1) 
+Worst Time Complexity    : O(N)
+Average Time Complexity  : O(N)
+
+### [Binary Search](binarysearch.cpp)
+
+***Time Complexity***
+
+Best Time Complexity     : O(1) 
+Worst Time Complexity    : O(logN)
+Average Time Complexity  : O(logN)
+
+## Practical 4
+
+*Implementation and Time Analysis of Factorial Program using Iterative and Recursive Approach*
+
+### [Factorial Code](factorial.cpp)
+
+**Iterative Approach**
+
+***Time Complexity*** : O(N)
+
+*The loop runs n-1 times from 2 to n* 
+
+**Recursive Approach**
+
+***Time Complexity*** : O(N)
+
+*The function call itselfs n times before reaching the base case* 
+
+
+
+
+
+
+
 
 
 
